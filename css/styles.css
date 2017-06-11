@@ -1,0 +1,399 @@
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+
+
+}
+
+body {
+		position: relative;
+		overflow-x: hidden;
+
+
+}
+
+
+
+/***Estilos de fuentes ***/
+
+h1 {
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+	margin-top: auto;
+	line-height: 0.5em;
+}
+
+h1,
+h2,
+h3,
+h4{
+	font-family: 'Architects Daughter', cursive;
+}
+
+p,
+li
+{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+/*** NAVEGADOR ***/
+
+.navbar { 
+	font-size: 1.5em;
+	font-family: 'Alegreya Sans', sans-serif;;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar .nav li a:hover {
+	color: yellow;
+}
+
+.navbar .nav li a:active {
+	color: blue;
+}
+
+.dropdown a {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand {
+	position: fixed;
+	text-transform: uppercase;
+	font-family:'Alegreya Sans', sans-serif;
+	
+
+}
+
+/** Carrusel **/
+
+.carousel {
+ 	margin-left: -15px;
+ 	
+
+ 	width: 105%;
+ }
+
+.carousel-caption {
+	position: absolute;
+	height: 20%;
+	background-position: center;
+	background:rgba(0,0,0,0);
+	top:50%;
+	
+}
+
+.titulo-home {
+	text-align: center;
+}
+
+#madrid {
+	width: 100%;
+}
+#segundo {
+	width: 100%;
+}
+#tercero {
+	width: 100%;
+}
+
+
+/*** About page ***/
+
+.header {
+	text-align: center;
+	
+}
+
+#virus {
+	width: 100%;
+	border-radius: 20%;
+	
+	
+}
+
+.intro {
+	text-align: center;
+	padding-top: 100px;
+}
+.intro p {
+	padding-top: 20px;
+}
+	
+.skills {
+	
+	text-align: center;
+	padding-top: 100px;
+	margin-top: -60px;
+}
+.skills ul {
+	
+	list-style: none;
+	width: 90%;
+}
+.skills h2 ul {
+	text-align: center;
+
+}
+
+#skill-list li {
+	padding-bottom: 5px;
+	text-align:center;
+}
+
+#skill-proffesional li {
+	list-style: none;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 60px;
+	text-indent: all;
+}
+
+
+
+/* CONTACT STYLINGS */
+
+.contact-container {
+	width: 100%;
+	padding: 39px 0 0;
+}
+
+.contact-container h2 {
+	font-weight: 900;
+}
+
+.contact-intro {
+	margin-left: 5%;
+	margin-bottom: 50px;
+	font-size:2em;
+}
+
+
+.contact-container {
+	background-image: url("../img/city.JPG");
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: inset 500px 0 500px 0 rgba(0,0,0,0.1);
+  width: 100%;
+  padding: 5%;
+  height: 100%;
+  color: white;
+}
+
+.basic-contact {
+	float: left;
+	margin-bottom: 30px;
+	font-size:1.5em;
+}
+
+.contacto {
+	margin-top:50px;
+}
+
+#map {
+	height: 300px;
+	width: 100%;
+	padding-top: 200px;
+}
+
+.social {
+	margin-top: 20px;
+}
+
+.social a {
+	margin-right: 5px;
+}
+
+.contact-form {
+	float: right;
+
+}
+
+.form-group {
+	position: relative;
+	margin-bottom: 20px;
+
+}
+
+.form-control {
+	padding-top: 10px;
+	height: 44px;
+}
+
+.title {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	font-size: 10px;
+	color: #b3b3b3;
+}
+
+.form-control:focus + .title {
+	color: blue;
+}
+
+.name,
+.number {
+	width: 49%;
+	height: 44px;
+}
+
+.name {
+	float: left;
+	margin-right: 2%;
+}
+
+.number {
+	float: right;
+}
+
+.email {
+	clear: both;
+}
+
+#char-count {
+	color: black;
+	float: right;
+	margin: 0;
+	position: absolute;
+	right: 12px;
+	bottom: 4px;
+}
+
+.contact-form button {
+	float: right;
+	clear: both;
+}
+
+span.push:hover {
+	color: blue;
+}
+
+
+
+/* WORK */
+
+.work-container{
+	text-align: center;
+}
+
+img.img-responsive.sample {
+	padding:-50px;
+}
+
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 500px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 15%; /* position the text 15% away from the top */
+  left: 25%;
+  color:#fff;
+  font-family:'Architects Daughter', cursive;
+  font-size: 1em;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  background: rgba(51, 51, 51, 0.5);
+  line-height:1.6;
+  margin-right:35%;
+  padding:5%;
+
+  display: none;
+}
+.proj-title {
+	 font-weight:100;
+}
+
+.sample {
+  -webkit-box-shadow: 5px 5px 5px #333;
+  -moz-box-shadow: 5px 5px 5px #333;
+  box-shadow: 5px 5px 5px #333;
+  -webkit-transition: box-shadow 400ms;
+  -moz-transition: box-shadow 400ms;
+  transition: box-shadow 400ms;
+  margin: 3% auto;
+  border: 1px solid #333; }
+
+.sample:hover {
+  -webkit-box-shadow: 5px 5px 5px skyblue;
+  -moz-box-shadow: 5px 5px 5px skyblue;
+  box-shadow: 5px 5px 5px skyblue; }
+/* FAQ */
+
+.learn-more {
+	float:left;
+	padding-left:60px;
+	padding-top:60px;
+}
+
+#modal-button{
+	float:right;
+	padding-right:60px;
+	padding-top:60px;
+}
+
+#learn .faq {
+	text-align: center;
+}
+
+#modal-embed {
+    height: 1000px;
+    width: 100%;
+    padding: 10px;
+}
+.info p {
+	text-align: center;
+}
+
+/*VIDEO*/
+
+.video {
+	width:80%;
+	left:10%;
+	margin-top: -20px;
+}
+
+/**FOOTER **/
+
+footer {
+	height:50px;
+	border-top:1px solid darkred;
+	background-color:black;
+	text-align: center;
+}
+
+
+#copy {
+	display: inline-block;
+	margin: 10px;
+	height: 40px;
+	color:white;
+	text-align: center;
+}
+
+
+
+
+
+#copyright p {
+	margin-bottom: 0;
+	margin-left:50px;
+}
